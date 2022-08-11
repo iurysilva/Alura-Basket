@@ -17,28 +17,28 @@ const basket = {
         farmImage: logo,
         button: "Comprar"
     },
-    itens: {
-        titulo: "Itens da cesta",
-        lista: [
+    items: {
+       title: "Basket items",
+        list: [
           {
-            nome: "Tomate",
-            imagem: tomate,
+            name: "Tomato",
+            image: tomate,
           },
           {
-            nome: "Brócolis",
-            imagem: brocolis,
+            name: "Broccoli",
+            image: brocolis,
           },
           {
-            nome: "Batata",
-            imagem: batata,
+            name: "Potato",
+            image: batata,
           },
           {
-            nome: "Pepino",
-            imagem: pepino,
+            name: "Cucumber",
+            image: pepino,
           },
           {
-            nome: "Abóbora",
-            imagem: abobora,
+            name: "Pumpkin",
+            image: abobora,
           }
         ]
       }
