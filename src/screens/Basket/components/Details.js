@@ -1,9 +1,9 @@
 import React from "react";
-import { View, Image, StyleSheet} from "react-native";
+import { View, Image, StyleSheet, TouchableOpacity} from "react-native";
 
 import Text_Component from "../../components/Text_Component";
 
-export default function Details({name, description, farmName, farmImage, price}){
+export default function Details({name, description, farmName, farmImage, price, button}){
     return <>
     <Text_Component style={styles.name}>{name}</Text_Component>
     <Text_Component style={styles.description}>{description}</Text_Component>
@@ -12,6 +12,10 @@ export default function Details({name, description, farmName, farmImage, price})
         <Text_Component style={styles.farmName}>{farmName}</Text_Component>
     </View>
     <Text_Component style={styles.price}>{price}</Text_Component>
+
+    <TouchableOpacity style={styles.button}>
+        <Text_Component style={styles.buttonText}>{button}</Text_Component>
+    </TouchableOpacity>
     </>
 }
 
@@ -47,5 +51,18 @@ const styles = StyleSheet.create({
     farmImage: {
         width: 32,
         height: 32,
-    }
+    },
+    button: {
+        marginTop: 16,
+        backgroundColor: '#2A9F85',
+        paddingVertical: 16,
+        borderRadius: 6,
+    },
+    buttonText: {
+        textAlign: "center",
+        color: "#ffffff",
+        fontSize: 16,
+        lineHeight: 26,
+        fontWeight: "bold",
+    },
 })
