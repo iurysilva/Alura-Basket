@@ -2,7 +2,6 @@ import { StatusBar, SafeAreaView, View} from 'react-native';
 import Basket from './src/screens/Basket';
 import {useFonts, Montserrat_400Regular, Montserrat_700Bold} from '@expo-google-fonts/montserrat'
 import basket from './src/mocks/basket';
-import AppLoading from 'expo-app-loading';
 
 export default function App() {
   const [loadedFont] = useFonts({
@@ -11,7 +10,7 @@ export default function App() {
   })
 
   if (!loadedFont) {
-    return <AppLoading/>
+    return <View/>
   }
   return (
     <SafeAreaView>
