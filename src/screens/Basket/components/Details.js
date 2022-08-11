@@ -2,7 +2,6 @@ import React from "react";
 import { View, Image, StyleSheet} from "react-native";
 
 import Text_Component from "../../components/Text_Component";
-import logo from "../../../../assets/logo.png"
 
 export default function Details({name, description, farmName, farmImage, price}){
     return <>
