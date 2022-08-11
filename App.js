@@ -13,7 +13,7 @@ export default function App() {
     return <View/>
   }
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar/>
       <Basket {...basket}/>
     </SafeAreaView>
