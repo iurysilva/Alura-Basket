@@ -6,10 +6,10 @@ import top from "../../../../assets/topo.png";
 
 const width = Dimensions.get('screen').width;
 
-export default function Top(){
+export default function Top({title}){
     return <>
     <Image source={top} style={styles.top}/>
-    <Text_Component style={styles.titles}>basket details</Text_Component>
+    <Text_Component style={styles.titles}>{title}</Text_Component>
     </>
 }
 

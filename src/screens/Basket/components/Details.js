@@ -4,15 +4,15 @@ import { View, Image, StyleSheet} from "react-native";
 import Text_Component from "../../components/Text_Component";
 import logo from "../../../../assets/logo.png"
 
-export default function Details(){
+export default function Details({name, description, farmName, farmImage, price}){
     return <>
-    <Text_Component style={styles.name}>Vegetables basket</Text_Component>
-    <Text_Component style={styles.description}>A basket with carefully selected products, from the farm directly to your kitchen</Text_Component>
+    <Text_Component style={styles.name}>{name}</Text_Component>
+    <Text_Component style={styles.description}>{description}</Text_Component>
     <View style={styles.farm}>
-        <Image style={styles.farmImage} source={logo}/>
-        <Text_Component style={styles.farmName}>Jenny Jack Farm</Text_Component>
+        <Image style={styles.farmImage} source={farmImage}/>
+        <Text_Component style={styles.farmName}>{farmName}</Text_Component>
     </View>
-    <Text_Component style={styles.price}>R$ 40,00</Text_Component>
+    <Text_Component style={styles.price}>{price}</Text_Component>
     </>
 }
 
