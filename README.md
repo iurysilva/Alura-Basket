@@ -1,44 +1,40 @@
-![Thumbnails GitHub](https://user-images.githubusercontent.com/9091491/123842348-0e116c80-d8e7-11eb-8618-9c15cc743335.png)
+# ⚛️ React Native: Starting from zero
 
-![](https://img.shields.io/github/license/nataliakt/alura-react-native-comecando-do-zero)
+This is a project from the **Starting from Zero** program, part of the **React Native** course by [Alura](https://www.alura.com.br/).
 
-# ⚛️ React Native: Começando do Zero
+## 📱 Project
 
-Esse é o projeto do curso **Começando do Zero** da formação em **React Native** na [Alura](https://www.alura.com.br/).
-
-## 📱 Projeto
-
-Este projeto implementa a tela de detalhes da cesta do e-commerce *orgs*. Nesta tela são mostrados dados estáticos do nome da cesta, fazenda, preço e itens da cesta.
+This project implements a screen of details for a e-commerce orgs basket. This screen will contain static data about the basket name, farm, price and items.
 
 <img src="https://user-images.githubusercontent.com/9091491/123982988-e3ccb700-d999-11eb-880e-872881ee8b10.gif" width="350" />
 
-## 🧑‍💻 Técnicas e Tecnologias
+## 🧑‍💻 Techniques and technologies
 
-As técnicas e tecnologias utilizadas no projeto são:
+The techniques and technologies used in this project are:
 
-- `Expo`: tecnologia para simplificar o ambiente de desenvolvimento
-- `Componentes React Native`: componentes já existentes básicos da tecnologia para compor a tela
-  - `Text`: componente para exibir textos
-  - `View`: container para blocos de componentes
-  - `ScrollView`: container para blocos de componentes com barra de rolagem
-  - `Image`: componente para exibir imagens
-  - `TouchableOpacity`: componente para criar áreas clicáveis
-- `Componentes customizados`: criação e utilização de componentes customizados
-- `Suporte a telas`: não permitir que conteúdos estejam sob a *StatusBar* (barra superior nativa) ou barra de gestos do iPhone
-- `Expo Google Fonts`: suporte a fontes do google via Expo
-- `StyleSheet`: estilização básica de componentes
-- `Dimensions`: captura de dados das dimenções da tela
+- `Expo`: technology used to simplify the development environment
+- `Componentes React Native`: basic pre-existing components of the technology to fill the screen
+  - `Text`: component used to show texts
+  - `View`: container of component blocks
+  - `ScrollView`: container of component blocks with scrollbar
+  - `Image`: component to show images
+  - `TouchableOpacity`: component to creact clickable areas
+- `Componentes customizados`: creation and utilization of customized components
+- `Suporte a telas`: do not allow content to be  under the status bar
+- `Expo Google Fonts`: Google Fonts support via expo
+- `StyleSheet`: basic component stylization
+- `Dimensions`: retrieve data about screen dimensions
 
-## 📲 Executando o projeto
+## 📲 Running the project
 
-### ✔️ Pré-requisitos
+### ✔️ Pré-requirements
 
-Para conseguir seguir este README e rodar o projeto você pode precisar dos seguintes itens:
-- Git para clonar o projeto e acessar as branches. Você pode instalar [aqui](https://git-scm.com/downloads);
-- Node para podermos rodar `expo` e `npm`. Você pode instala-lo [aqui](https://nodejs.org/en/);
-- Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
+To be able to follow this README and run the project, you might need to have the following items:
+- Git to clone the project and and have access to its branches. You can install [](https://git-scm.com/downloads);
+- Node so we can run `expo` and `npm`. You can isntall it [here](https://nodejs.org/en/);
+- A Android or iOS phone with expo installed. Or else, some Android or iOS simulator in your computer;
 
-Se quiser testar as instalações, rodar os comandos abaixo separadamente deve mostrar as respectivas versões.
+If one want to test the installations, it is necessary to run those command below separately, they need to show the versions.
 
 ```
 git --version
@@ -46,35 +42,35 @@ node --version
 npm --version
 ```
 
-Então com o `npm` instalado podemos instalar o `expo` e checar a versão:
+With `npm` installed we can install `expo` and check its versions:
 ```
 npm install --global expo-cli
 expo --version
 ```
 
-### 🐙 Clonando o projeto
+### 🐙 Clonning the project
 
-Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
+To have access to the project files, one need to clone it using the following commands:
 
 ```
 git clone https://github.com/alura-cursos/react-native-comecando-do-zero.git
 ```
 
-### ▶️ Rodando o Projeto
+### ▶️ Running project
 
-Agora que já tem a pasta do projeto na sua máquina, dentro dela instale as dependências:
+Now that you have the project folders in your machine, install its dependencies inside it:
 ```
 npm install
 ```
 
-Então podemos rodar o projeto:
+So, we can run the project:
 ```
 npm start
 ```
 
-Uma guia no navegador irá abrir, geralmente [neste endereço](http://localhost:19002/).
-Caso estiver com o celular, **escaneie o QR code com o aplicativo do Expo** ou a câmera.
-Se seu celular estiver em outra rede diferente do computador, troque a "CONNECTION" para "Tunnel", que o app será transmitido via internet.
-Se tiver um simulador, clique na opção do sistema operacional do seu simulador no menu esquerdo.
+A page in the browser should open, generally in [this address](http://localhost:19002/).
+If you're using a phone, **scan the QR code using the Expo app** or the camera.
+If your phone is connected to a different network from your computer, change "CONNECTION" to "Tunnel", and the app will be transmitted on the internet.
+If you have a emulator, click in the operational system option in the left menu of your emulator.
 
-Pronto, agora o app você deve ver o app rodando.
+Done, now you should see the app running.
